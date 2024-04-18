@@ -1,1 +1,53 @@
 /* your code here */
+.product{
+	background-color:lightgreen;
+}
+.photo-container{
+	background-color:white;
+}
+.photo-main{
+	background-color:limegreen;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+}
+.fa{
+	color:white;
+}
+.photo-album2{
+	display:flex;
+	text-decoration:none;
+	list-style:none;
+}
+.photo-album2>li{
+	border-radius:5px;
+	border:1px solid grey;
+}
+.code{
+	color:grey;
+	
+}
+.price{
+	color:red;
+}
+.rupee{
+	font-size:40px;
+}
+.variant{
+	color:grey;
+}
+.description{
+	color:grey;
+}
+.button{
+	padding:10px;
+	color:white;
+	background-color:red;
+	border-radius:10px;
+}
+
+
+.product__info{
+	position:relative;
+}
