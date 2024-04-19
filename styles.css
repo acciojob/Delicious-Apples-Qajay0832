@@ -1,12 +1,17 @@
-/* your code here */
-.product{
+body{
 	background-color:lightgreen;
 }
+/* .product{
+	background-color:lightgreen;
+} */
+/* .product__photo{
+	position:absolute;
+} */
 .photo-container{
-	background-color:white;
-}
-.photo-main{
 	background-color:limegreen;
+}
+.photo-album{
+	background-color:white;
 }
 .controls{
 	display:flex;
@@ -24,6 +29,12 @@
 	border-radius:5px;
 	border:1px solid grey;
 }
+.product__info{
+	position:relative;
+	background-color:white;
+	margin:100px;
+	padding: 50px 10px 10px 400px;
+}
 .code{
 	color:grey;
 	
@@ -37,7 +48,7 @@
 .variant{
 	color:grey;
 }
-.description{
+.benefits{
 	color:grey;
 }
 .button{
@@ -48,6 +59,4 @@
 }
 
 
-.product__info{
-	position:relative;
-}
+
